@@ -6,3 +6,5 @@ export const k = kaboom({
     letterbox: true,
     global: false   
 })
+
+export default k;
