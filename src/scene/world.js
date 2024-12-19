@@ -1,6 +1,5 @@
+import { fetchMapData } from "../utils.js";
+
 export default async function world(k) {
-  k.add([
-    k.rect(100, 100), 
-    k.pos(k.center())
-  ]);
+  const mapData = await fetchMapData("./assets/maps/world.json");
 }
